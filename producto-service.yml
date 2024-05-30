@@ -1,1 +1,3 @@
-
+server:
+  port: ${PORT:8863}
+message: GIT-configuration de PRODUCTO service. Gaaa!
