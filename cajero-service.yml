@@ -1,1 +1,3 @@
-
+server:
+  port: ${PORT:8862}
+message: GIT-configuration de CAJERO service. Gaaa!
