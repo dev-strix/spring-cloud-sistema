@@ -1,1 +1,3 @@
-
+server:
+  port: ${PORT:8865}
+message: GIT-configuration de LOCAL service. Gaaa!
