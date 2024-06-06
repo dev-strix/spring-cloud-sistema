@@ -1,3 +1,16 @@
 server:
   port: ${PORT:8865}
 message: GIT-configuration de LOCAL service. Gaaa!
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/crudcloud?serverTimezone=UTC
+    username: root
+    password: Russleny1?
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      database-platform: org.hibernate.dialect.MySQLDialect
+  cloud:
+    config:
+      uri: http://localhost:8860
